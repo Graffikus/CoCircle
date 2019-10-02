@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="10dp">
+
+    <Space
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/resume_button" />
+
+    <Space
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/settings_button" />
+
+    <Space
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/buttonMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_menu_button"/>
+
+    <Space
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

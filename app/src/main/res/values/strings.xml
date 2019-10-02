@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CoCircle</string>
+    <string name="text_button">OK</string>
+    <string name="about">Hello!
+        The circle is divided into several playing fields, depending on the number of players.
+        A color that needs to be guessed appears in the center circle - the colors in each round do not appear immediately, but gradually.
+        The first player, who correctly guessed the color, gets 5 points, the rest - descending.
+        If the correct choice of color occurs after all the colors have fully showed, the player gets only 1 point.
+        Each mistake leads to a loss of 3 points.
+        Color choices can be made once per round.
+        The colors are appearing for 4 seconds, one more second they are on the screen, and for one more second they fade away.
+        The next round comes.
+        When all the players have made a choice, the colors appear instantly.
+        The more points you collect, the harder it is to choose the color, as the number of options increases.
+        The goal of the game is to score 100 points first.</string>
+</resources>
